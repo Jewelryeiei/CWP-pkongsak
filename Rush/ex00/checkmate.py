@@ -27,7 +27,7 @@ def checkmate(board):
     # -------------------------
     # Pawn โจมตีจากด้านบนลงล่าง
     for dc in [-1, 1]:
-        r = king_row - 1
+        r = king_row + 1
         c = king_col + dc
 
         if 0 <= r < size and 0 <= c < size:
